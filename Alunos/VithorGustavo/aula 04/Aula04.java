@@ -137,9 +137,9 @@ public class Aula04 {
     
     private static void exibirRegistroDeVendas() {
         if (registroDeVendas.isEmpty()) {
-            System.out.println("Nenhuma venda registrada ainda.");
+            System.out.println("Nenhuma venda registrada ainda");
         } else {
-            System.out.println("\n== Registro de Vendas ==");
+            System.out.println("\n=== Registro de Vendas ===");
             for (int i = 0; i < registroDeVendas.size(); i++) {
                 Venda venda = registroDeVendas.get(i);
                 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
